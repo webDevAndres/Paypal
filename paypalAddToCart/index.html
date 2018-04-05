@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paypal Standard Project- add to cart button</title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-danger" role="alert">
+            <strong>Academic Poject</strong> No orders will be fulfilled.
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+                    <a class="navbar-brand" href="#">Mystery Gifts</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="container">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light bg-gray" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light bg-gray" href="#">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light bg-gray" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end link container-->
+                </nav>
+                <!--end navbar-->
+            </div>
+        </div>
+        <!-- end navbar row-->
+    </div>
+    <!-- end navbar container -->
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Choose one of our mystery gifts and have the chance to find something more valuable than you expected.</h1>
+            <p class="lead">What will you uncover?</p>
+            <img src="images/mysboxbanner.jpeg" class="img-fluid" alt="Responsive image">
+            <p>Would you like to know what is possible to obtain in each box? Sign up for our newsletter!</p>
+            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="KKDM53Y4KE4ZC">
+                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+            <p>Sign up to be a member for 5% off your future purchases</p>
+            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="FFXP5P9ZH595C">
+                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+                
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <!--end heading container-->
+
+
+    <div class="container mainSection">
+        <section class="mainSelection">
+            <h2>Choose your adventure</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="images/dblmsybox.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Double the mystery box</h4>
+                                <p class="card-text">Double your chances with our double mystery box to obtain something great!</p>
+                                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                                    <fieldset>
+                                        <legend>$25</legend>
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="N6HKDLZAEYHTW">
+
+                                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <input type="hidden" name="on0" value="Customized message">Customized message</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="text" name="os0" maxlength="200">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+
+                                </form>
+
+
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/mysbox1.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Big mystery</h4>
+                                <p class="card-text">Our Big mystery box has a greater chance to give you something of equal or greater value.</p>
+                                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                                    <fieldset>
+                                        <legend>$50</legend>
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="N8WLRJSJGWAAL">
+                                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <input type="hidden" name="on0" value="Themes">Themes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <select name="os0">
+                                                        <option value="Winter">Winter </option>
+                                                        <option value="Spring">Spring </option>
+                                                        <option value="Summer">Summer </option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="hidden" name="on1" value="Special message">Special message</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="text" name="os1" maxlength="200">
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <img alt="" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </fieldset>
+
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/mysbox2.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Mystery box</h4>
+                                <p class="card-text">Our standard mystery box has a chance to give you something of equal or lesser value.</p>
+                                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                                    <fieldset>
+                                        <legend>Choose an option:</legend>
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="DF8Y7443R9XAU">
+                                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <input type="hidden" name="currency_code" value="USD">
+                                        <img alt="" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <input type="hidden" name="on0" value="Select an option">Select an option</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <select name="os0">
+                                                        <option value="One box">One box $15.00 USD</option>
+                                                        <option value="Two boxes">Two boxes $20.00 USD</option>
+                                                        <option value="Three boxes">Three boxes $25.00 USD</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="hidden" name="on1" value="Special message">Special message</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="text" name="os1" maxlength="200">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secondSelection">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="images/premiummysbox.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Premium mystery box</h4>
+                                <p class="card-text">Our premium mystery box has the possiblity to contain something double of its value.</p>
+                                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                                    <fieldset>
+                                        <legend>$75</legend>
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="EBVGB4NSTU384">
+                                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </fieldset>
+
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/tinymysbox.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">small mystery box</h4>
+                                <p class="card-text">Our small mystery box has a theme of small items like jewelery.</p>
+                                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                                    <fieldset>
+                                        <legend>$5.99</legend>
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="ZHLD6AT7DV4RN">
+                                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </fieldset>
+
+                                </form>
+
+
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/mysbox3.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">All or nothing mystery box</h4>
+                                <p class="card-text">Our All or nothing mystery box gives you the greatest chance to get something worth over
+                                    $1000 or something worth as little as $50.</p>
+                                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                                    <fieldset>
+                                        <legend>$899.99</legend>
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="UC3429WYQRGQW">
+                                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+                                    </fieldset>
+
+                                </form>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Mystery Gifts</p>
+                    <address>
+                        BOX 245, Hollywood, USA
+                    </address>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Js,Jquery,Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

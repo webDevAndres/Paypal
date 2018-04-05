@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paypal Standard Project</title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-danger" role="alert">
+            academic project
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+                    <a class="navbar-brand" href="#">Stickers for animals</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">How you can help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Get involved</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <section class="headingImg">
+            <div class="jumbotron">
+                <h1 class="display-3">Welcome to stickers for animals, helping animals in need.</h1>
+                <p class="lead">Would you like to donate to help animals in need? For every $5 dollar donation you make you will receive
+                    a sticker.</p>
+
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <legend>Donate $10 to recieve two random stickers</legend>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="KZ2CKQJHLYJK8">
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+
+
+            </div>
+        </section>
+
+        <section class="puppyStickers">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Choose your own amount donations</h1>
+                    <p>or choose to donate on a recurring plan to receive random stickers each month.</p>
+                    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <fieldset>
+                            <legend>Donate now</legend>
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <!-- created 3 different donation buttons, then placed them in a single form as radion buttons -->
+                            <input type="radio" name="hosted_button_id" id="donFive" value="JPTZZMU8MPC5S">
+                            <label for="donFive">$5 donation</label>
+                            <input type="radio" name="hosted_button_id" id="donTen" value="BD8XHME7LR7ZN">
+                            <label for="donTen">$10 donation</label>
+                            <input type="radio" name="hosted_button_id" id="donFifteen" value="MK279BSEQFC32">
+                            <label for="donFifteen">$15 donation</label>
+                            <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+                 
+                         
+
+                            
+
+
+                        </fieldset>
+
+                    </form>
+
+
+
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/puppyStickers/dog1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Puppy in teacup.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="RNN42WB65QAXE">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/puppyStickers/dog2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">puppy sitting down.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="NFK8YNLL94XQY">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/puppyStickers/dog3.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">cute pug.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="FRWM2KVNPUAGS">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/puppyStickers/dog4.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">happy puppy.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="HAPBNUWJTYYEW">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="kittenStickers">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/kittenStickers/cat1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">scared kitten.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="GMQWM4J659P8W">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/kittenStickers/cat2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">cute kitten.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="3WZWFYCEZUUQQ">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/kittenStickers/cat3.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">kitten in teacup.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="LBD5BVUYXPVKN">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/kittenStickers/cat4.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">paws up.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="UVVR88UXHQ5YU">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="birdStickers">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/birdStickers/bird.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">colorful bird.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="BL9AJDQYAJ6RY">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/birdStickers/duckling.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">cute duckling.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="WR8DX8P9MZ3P2">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/birdStickers/ducks.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">baby chicks.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="CWB5EPXMZWTMJ">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/birdStickers/ducklings.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">two ducklings.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="5FQDAMVR88HRW">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="bunnyStickers">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bunnyStickers/bunny1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">bunny in barn.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="3MGQURZJAPJNJ">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bunnyStickers/bunny2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">big ears.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="CCX7482X6UADL">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bunnyStickers/bunny3.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">staring off into the distance.</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="35XLAHWC6KYZA">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bunnyStickers/bunny4.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">tiny bunny in palm</p>
+                            <legend>Choose your price donation</legend>
+                            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="7KF6RHX5K5G9A">
+                                <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <footer>
+            <img src="images/logo.jpeg" alt="plant logo">
+            <a href="http://www.freepik.com/free-vector/pattern-for-childs_1302082.htm">background Designed by Freepik</a>
+        </footer>
+    </div>
+    <!--end container-->
+
+    <!-- Js,Jquery,Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

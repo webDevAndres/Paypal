@@ -1,0 +1,39 @@
+body {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.jumbotron {
+    margin-top: 3%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.card-body {
+    color:white;
+    background-color: rgb(63, 25, 25);
+}
+.mainSection {
+    color:white;
+padding-bottom: 15%;
+}
+.mainSelection {
+    margin-bottom: 4%;
+    border-bottom: 15px solid rgb(90, 30, 30);
+    box-shadow: 0px 20px 10px black;
+}
+
+.secondSelection {
+    border-bottom: 15px solid rgb(90, 30, 30);
+    box-shadow: 0px 20px 10px black;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
